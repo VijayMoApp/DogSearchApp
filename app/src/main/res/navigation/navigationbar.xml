@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/navigationbar"
+    app:startDestination="@id/breedSearchFragment">
+
+   
+    <fragment
+        android:id="@+id/breedSearchFragment"
+        android:name="com.ramsoft.dogsearchapp.ui.fragment.BreedSearchFragment"
+        android:label="BreedSearchFragment"/>
+
+    <fragment
+        android:id="@+id/favouriteFragment"
+        android:name="com.ramsoft.dogsearchapp.ui.fragment.FavoriteFragment"
+        android:label="Favorite" />
+    <fragment
+        android:id="@+id/viewlaterFragment"
+        android:name="com.ramsoft.dogsearchapp.ui.fragment.ViewLaterFragment"
+        android:label="ViewLater" />
+</navigation>

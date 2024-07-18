@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DogSearchApp</string>
+    <string name="homefragment_tag">Home fragment</string>
+    <string name="no_internet_connection">No internet connection detected</string>
+    <string name="unable_to_fetch_data">Unablr to fetch Data</string>
+    <string name="some_error_occured">Some error occured</string>
+    <string name="splash">Get Start</string>
+    <string name="breed_name">Boxer</string>
+    <string name="text">Home</string>
+    <string name="text2">Likes</string>
+    <string name="text3">Bookmarks</string>
+    <string name="favorite">Favorite</string>
+</resources>
